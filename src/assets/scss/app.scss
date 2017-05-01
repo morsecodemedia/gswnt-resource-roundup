@@ -1,0 +1,49 @@
+@import 'settings';
+@import 'foundation-emails';
+
+//@import 'template/template';
+$gswnt-brown: #4b372d;
+$gswnt-gold: #deb02e;
+
+html, body, p, h1, h2, h3, h4, h5, h6, a  {
+	//font-family: 'Pavanam', Helvetica, Arial, sans-serif;
+	font-family: $body-font-family;
+	color: $gswnt-brown;
+}
+
+a {
+	color: $gswnt-gold;
+	text-decoration: underline;
+	&:active,
+	&:visited,
+	&:hover {
+		color: $gswnt-gold;
+	}
+}
+
+h5 {
+	a {
+		color: $gswnt-gold;
+		text-decoration: underline;
+		&:active,
+		&:visited,
+		&:hover {
+			color: $gswnt-gold;
+		}
+	}
+}
+
+.footer {
+	background-color: $gswnt-brown;
+	padding-top: 25px;
+	p {
+		color: white;
+		font-size: 10px;
+		margin-top: 10px;
+	}
+}
+.gold-line {
+	background-color: $gswnt-gold;
+}
+
+	
