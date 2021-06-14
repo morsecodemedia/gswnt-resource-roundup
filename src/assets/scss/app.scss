@@ -5,36 +5,43 @@
 $gswnt-brown: #4b372d;
 $gswnt-gold: #deb02e;
 
+$gswnt-yellow: #e9c927;
+
 html, body, p, h1, h2, h3, h4, h5, h6, a  {
 	//font-family: 'Pavanam', Helvetica, Arial, sans-serif;
 	font-family: $body-font-family;
-	color: $gswnt-brown;
+	color: #000;
 }
 
 a {
-	color: $gswnt-gold;
+	color: $gswnt-yellow;
 	text-decoration: underline;
+	padding: 3px 5px;
+	background-color: #000;
 	&:active,
 	&:visited,
 	&:hover {
-		color: $gswnt-gold;
+		color: $gswnt-yellow;
 	}
 }
 
 h5 {
+	padding: 10px;
+	background-color: #000;
+	display: inline-block;
 	a {
-		color: $gswnt-gold;
+		color: $gswnt-yellow;
 		text-decoration: underline;
 		&:active,
 		&:visited,
 		&:hover {
-			color: $gswnt-gold;
+			color: $gswnt-yellow;
 		}
 	}
 }
 
 .footer {
-	background-color: $gswnt-brown;
+	background-color: #000;
 	padding-top: 25px;
 	p {
 		color: white;
@@ -43,7 +50,6 @@ h5 {
 	}
 }
 .gold-line {
-	background-color: $gswnt-gold;
+	background-color: #e9c927;
 }
 
-	
